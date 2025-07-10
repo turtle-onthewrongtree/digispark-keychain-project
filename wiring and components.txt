@@ -1,0 +1,61 @@
+COMPONENTS
+
+Digispark (ATtiny85)
+
+0.91" OLED display (128×32, I2C, SSD1306)
+
+Tactile push button
+
+14500 battery (3.7V) with holder
+
+On/Off switch
+
+
+
+POWER (Battery + Switch)
+
+Battery (+) → to one leg of the on/off switch
+
+Other leg of the switch → to VIN on the Digispark
+
+Battery (–) → to GND on the Digispark
+
+
+OLED Display (I2C)
+
+VCC → Digispark 5V
+
+GND → Digispark GND
+
+SCL → Digispark P0
+
+SDA → Digispark P2
+
+
+ Tactile Switch
+
+You're using internal pull-up, so no resistor is needed.
+
+One leg → Digispark P1
+
+Other leg → GND
+
+
+In your code:
+
+#define BUTTON_PIN 1
+
+
+GND Sharing (Important!)
+
+You’ll need GND connections for:
+
+1. OLED
+
+
+2. Tactile switch
+
+
+3. Battery (–)
+
+

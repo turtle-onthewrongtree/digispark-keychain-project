@@ -1,0 +1,35 @@
+A keychain that has a digispark and a 0.91 i2c oled display (128×32) ssd1306 and shows sentences in a cycle.
+First sentence : you can
+Second sentence : breathe
+Third sentence : you are not here to fit in. You are here to rewire the scene 
+The third sentence will be cut into 4 and shown in 4 lines.
+
+All these texts are centered.
+Each of the sentences will be shown for 7 min and 6 seconds.
+And when the last sentence time is finished the keychain will go to a really deep sleep mode.
+
+My keychain has a tactile switch too. That works with press models.
+It has 6 press models.
+1. If its pressed once while the display is in the 3 swntences cycle, it will go to the next sentence.
+2.theres a pixel art that i want to be shown on the screen. I will send it to you later so you convert it to a format suitable for integrating into the code. If the tactile switch is pressed twice the pixel art will come up. The art will stay for 8 mins and then goes to deep sleep mode.
+
+3. Pressing the button for 4 times will show the messege : 
+I love you
+Let it rip
+It is shown in two lines. It stays for 10 minutes and then goes into deep sleep.
+
+4. And if pressed 8 times it will show
+With you,
+always.
+In 2 lines.
+This will never turn off. And stays on until the device is powered off with the on and off switch.
+5. A sentence : dont feel alone and hurt. I got your back.
+I want this in two lines. The tactile switch should be pressed 5 times for this to come up.
+
+6.
+A sentence: your life was my lifes best part.
+I want this in three lines. The tactile switch should be pressed 3 for it to show up.
+
+And all these texts are are aligned to the keft.
+
+Each time the power goes on and offf it starts from the beginig of the sentence cycles.
